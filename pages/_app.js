@@ -1,7 +1,11 @@
-import '../styles/globals.css'
+import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+	return (
+		<div className="container mx-auto mt-4 max-w-[1100px]">
+			<Component {...pageProps} />
+		</div>
+	);
 }
 
-export default MyApp
+export default MyApp;
